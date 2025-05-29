@@ -36,6 +36,7 @@
 ```bash
 python wikipedia_six_degrees.py <url1> <url2> <rate_limit>
 ```
+```bash
 где,
 
 *<url1>*: Первый URL статьи Википедии.
@@ -43,7 +44,7 @@ python wikipedia_six_degrees.py <url1> <url2> <rate_limit>
 *<url2>*: Второй URL статьи Википедии.
 
 *<rate_limit>*: Максимальное количество запросов в секунду (целое число, например, 10).
-
+```
 
 ```bash
 Пример:
