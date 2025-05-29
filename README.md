@@ -39,7 +39,7 @@ python wikipedia_six_degrees.py <url1> <url2> <rate_limit>
 <url1>: Первый URL статьи Википедии.
 <url2>: Второй URL статьи Википедии.
 <rate_limit>: Максимальное количество запросов в секунду (целое число, например, 10).
-
+```
 ```bash
 Пример:
 python wikipedia_six_degrees.py [https://en.wikipedia.org/wiki/Six_degrees_of_separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation) [https://en.wikipedia.org/wiki/American_Broadcasting_Company](https://en.wikipedia.org/wiki/American_Broadcasting_Company) 10
