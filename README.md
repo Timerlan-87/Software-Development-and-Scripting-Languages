@@ -33,15 +33,17 @@
 
 2.  **Установите зависимости:**
     ```bash
-    pip install requests beautifulsoup4
+    pip install requests beautifulsoup4 collections time re sys urllib.parse
     ```
+    Либо запустите 
+    pip install -r requirements.txt
 
 ## Запуск
 
 Запустите скрипт из командной строки, передав два URL-адреса статей Википедии и максимальное количество запросов в секунду (rate limit).
 
 ```bash
-python wikipedia_six_degrees.py <url1> <url2> <rate_limit>
+python SixDegreesOfSeparation_Wikipedia.py <url1> <url2> <rate_limit>
 ```
 
 **Описание аргументов:**
@@ -53,4 +55,4 @@ python wikipedia_six_degrees.py <url1> <url2> <rate_limit>
 
 ```bash
 Пример:
-python wikipedia_six_degrees.py [https://en.wikipedia.org/wiki/Six_degrees_of_separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation) [https://en.wikipedia.org/wiki/American_Broadcasting_Company](https://en.wikipedia.org/wiki/American_Broadcasting_Company) 10
+python SixDegreesOfSeparation_Wikipedia.py [https://en.wikipedia.org/wiki/Six_degrees_of_separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation) [https://en.wikipedia.org/wiki/American_Broadcasting_Company](https://en.wikipedia.org/wiki/American_Broadcasting_Company) 10
