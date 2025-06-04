@@ -26,8 +26,8 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone [https://github.com/your-username/wikipedia-six-degrees.git](https://github.com/your-username/wikipedia-six-degrees.git)
-    cd wikipedia-six-degrees
+    git clone [https://github.com/your-username/Software-Development-and-Scripting-Languages.git](https://github.com/your-username/Software-Development-and-Scripting-Languages.git)
+    cd Software-Development-and-Scripting-Languages
     ```
     (Замените `your-username` на имя вашего пользователя GitHub)
 
