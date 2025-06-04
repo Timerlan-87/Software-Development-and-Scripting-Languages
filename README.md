@@ -35,8 +35,10 @@
     ```bash
     pip install requests beautifulsoup4 collections time re sys urllib.parse
     ```
-    Либо запустите 
+    Либо запустите
+    ```bash
     pip install -r requirements.txt
+     ```
 
 ## Запуск
 
