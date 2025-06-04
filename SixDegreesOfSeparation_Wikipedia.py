@@ -112,7 +112,7 @@ def find_path_bfs(start_url, end_url, base_url, max_hops=5):
             continue
 
         links_on_page = extract_wiki_links(html_content, base_url)
-        print(f"    DEBUG: Найдено {len(links_on_page)} ссылок на {current_url}")
+        # print(f"    DEBUG: Найдено {len(links_on_page)} ссылок на {current_url}")
 
         for next_link_candidate in sorted(list(links_on_page)):
 
