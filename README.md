@@ -58,3 +58,10 @@ python SixDegreesOfSeparation_Wikipedia.py <url1> <url2> <rate_limit>
 ```bash
 Пример:
 python SixDegreesOfSeparation_Wikipedia.py [https://en.wikipedia.org/wiki/Six_degrees_of_separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation) [https://en.wikipedia.org/wiki/American_Broadcasting_Company](https://en.wikipedia.org/wiki/American_Broadcasting_Company) 10
+
+## Автор
+ **Timershin Ruslan** - [Timerlan-87](https://github.com/Timerlan-87/)
+
+## Лицензии
+
+Этот проект использует MIT License - see the [LICENSE.md](LICENSE.md)
